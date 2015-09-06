@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="phead"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>阿吃啦订餐网</title>
+<title>订餐系统</title>
 <?php 
 /*加载css*/
 foreach(array('base','common','main','login','home','order','food') AS $k => $v)
@@ -25,10 +25,10 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/assets/js/f
 <div id="top">
     <div id="top_inner">
         <a class="logo" href="<?php echo Yii::app()->createUrl('site/index');?>">
-            <img src="<?php echo Yii::app()->baseUrl;?>/assets/images/front/tranlogo1.png">
+            <!-- <img src="<?php echo Yii::app()->baseUrl;?>/assets/images/front/tranlogo1.png"> -->
         </a>
         <ul class="top_NewNava">
-            <li class="active"><a href="<?php echo Yii::app()->createUrl('site')?>">在哪家吃啊</a></li>
+            <li class="active"><a href="<?php echo Yii::app()->createUrl('site')?>">订餐系统</a></li>
             <!-- <li><a href="#">我要吐槽</a></li> -->
         </ul>
         <div id="top_quickmenu" class="quick_menu">
@@ -81,7 +81,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl . '/assets/js/f
 
 <div id="footer">
     <hr>
-    <p>Copyright © 2011-2014 阿吃啦科技有限公司 All Rights Reserved 京ICP备88888888号 | 京公网安备88888888888号</p>
+  <!--   <p>Copyright © 2011-2014 阿吃啦科技有限公司 All Rights Reserved 京ICP备88888888号 | 京公网安备88888888888号</p> -->
 </div>
 
 <div style="text-align: center;">
