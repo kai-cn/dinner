@@ -171,6 +171,8 @@ class ShopsController extends Controller
 	//列表
 	public function actionIndex()
 	{
+		var_dump($config['basePath']);
+		die();
 		//创建查询条件
 		$criteria = new CDbCriteria();
 		$criteria->order = 'order_id DESC';
