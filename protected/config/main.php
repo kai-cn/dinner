@@ -57,10 +57,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=dinner',
+			'connectionString' => 'mysql:host=192.168.1.50;dbname=dinner',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '123456',
+			'password' => 'welcome1',
 			'charset' => 'utf8',
 			'tablePrefix' => 'liv_',
 		),
@@ -185,7 +185,7 @@ return array(
 		),
 		'homeIndexPic' => 'home.jpg',
 		'material_path' => 'application.uploads',
-		'img_url' => 'http://localhost/dinner/protected/uploads/',
+		'img_url' => 'http://localhost/github/dinner/protected/uploads/',
 		'pagesize' => 10,//配置后台分页显示的个数
 		'menu' => array(
 						   	array(
